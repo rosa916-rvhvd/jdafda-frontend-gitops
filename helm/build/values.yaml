@@ -1,0 +1,15 @@
+app:
+  name: jdafda-poi-map-app
+  namespace: jdafda
+  cluster: .apps.rosa916.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/jdafda-frontend
+  org: rosa916-rvhvd
+  name: jdafda-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jdafda/poi-map-app
+  tag: latest
